@@ -1,14 +1,21 @@
 body {
-  background-color: #fdd2d2;
-  font-family: "Poppins", sans-serif;
+  background-color: rgb(255, 183, 147);
+  font-family: "Ubuntu", sans-serif;
   margin: 0;
   padding: 0;
 }
 h1 {
   font-size: 5em;
 }
+.different-color {
+  color: rgb(252, 39, 1);
+}
+.different-color:hover {
+  color: rgb(252, 1, 1);
+}
 p {
   font-size: 1.5em;
+  padding-bottom: 20px;
 }
 a {
   color: darkred;
@@ -22,14 +29,16 @@ a:hover {
   background: rgba(226, 118, 64, 0.8);
   padding-right: 25px;
   padding-left: 25px;
+  font-weight: bolder;
 }
 .banner {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  background-image: url("../img/frame58.jpg");
+  justify-content: space-evenly;
   padding-left: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 130px;
 }
 .banner-text-container {
   width: 45%;
@@ -39,5 +48,25 @@ a:hover {
 }
 .banner-image {
   width: 100%;
-  border-radius: 50% 0% 0% 50%;
+  border-radius: 50%;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 130px;
+}
+.about-image-container {
+  width: 45%;
+}
+.about-image {
+  width: 100%;
+  border-radius: 40px 50% 50% 40px;
+}
+.about-text-container {
+  width: 45%;
 }

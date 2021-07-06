@@ -106,6 +106,15 @@ a:hover {
   background-color: rgb(184, 98, 98);
   border-radius: 10px;
 }
+.coffee:hover {
+  background-color: rgb(216, 85, 85);
+}
+.dessert:hover {
+  background-color: rgb(216, 148, 85);
+}
+.fast-food:hover {
+  background-color: rgb(216, 214, 85);
+}
 figcaption {
   font-weight: bold;
   text-align: center;
@@ -123,6 +132,33 @@ li {
 li:hover {
   background-color: chocolate;
 }
+.review-head {
+  text-align: center;
+}
+.review {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.review-unit {
+  width: 40%;
+  background-color: rgb(255, 221, 147);
+  padding: 20px;
+  border-radius: 10px;
+}
+.username {
+  text-align: center;
+}
+.review-unit:hover {
+  background-color: rgb(248, 205, 113);
+  padding: 25px;
+}
+.checked {
+  color: red;
+}
 footer {
   position: relative;
   text-align: center;
@@ -137,6 +173,14 @@ h2 {
 h2:hover {
   color: rgb(255, 184, 6);
 }
+h3 {
+  font-size: 2em;
+  color: rgba(165, 42, 42, 0.8);
+}
+h3:hover {
+  color: rgb(165, 42, 42);
+}
+
 .footer-para {
   color: antiquewhite;
 }

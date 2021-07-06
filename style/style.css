@@ -70,3 +70,66 @@ a:hover {
 .about-text-container {
   width: 45%;
 }
+.waffle {
+  background: rgb(255, 221, 147);
+  padding: 50px;
+  border-radius: 15px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.waffle-head,
+.waffle-para {
+  width: 100%;
+  text-align: center;
+}
+.menu-text {
+  text-align: center;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.menu img {
+  width: 100%;
+}
+.coffee,
+.dessert,
+.fast-food {
+  width: 25%;
+  padding: 10px;
+  background-color: rgb(184, 98, 98);
+  border-radius: 5px;
+}
+figcaption {
+  font-weight: bold;
+  text-align: center;
+}
+li {
+  padding: 5px;
+  background-color: rgb(216, 216, 144);
+  border-radius: 5px;
+  margin-bottom: 3px;
+  color: rgb(59, 0, 0);
+}
+li:hover {
+  background-color: chocolate;
+}
+footer {
+  position: relative;
+  text-align: center;
+  background-color: rgb(95, 8, 8);
+  padding-top: 10px;
+  padding-bottom: 125px;
+}
+.footer-head {
+  font-size: 2em;
+  color: rgb(209, 154, 16);
+}
+.footer-para {
+  color: antiquewhite;
+}

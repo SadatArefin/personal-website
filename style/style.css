@@ -96,6 +96,7 @@ a:hover {
 }
 .menu img {
   width: 100%;
+  border-radius: 10px;
 }
 .coffee,
 .dessert,
@@ -103,11 +104,14 @@ a:hover {
   width: 25%;
   padding: 10px;
   background-color: rgb(184, 98, 98);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 figcaption {
   font-weight: bold;
   text-align: center;
+}
+figcaption {
+  font-weight: bolder;
 }
 li {
   padding: 5px;
@@ -126,9 +130,12 @@ footer {
   padding-top: 10px;
   padding-bottom: 125px;
 }
-.footer-head {
-  font-size: 2em;
+h2 {
+  font-size: 3em;
   color: rgb(209, 154, 16);
+}
+h2:hover {
+  color: rgb(255, 184, 6);
 }
 .footer-para {
   color: antiquewhite;
